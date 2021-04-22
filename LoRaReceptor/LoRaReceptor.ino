@@ -21,8 +21,8 @@ void setup() {
   while (!Serial);
 
   //Configuramos la entrada analógica para el botón
-  pinMode(buttonPin, OUTPUT); 
-  digitalWrite(buttonPin, HIGH);
+  pinMode(buttonPin, INPUT); 
+ // digitalWrite(buttonPin, HIGH);
 
   //Inicializamos el LCD.
   lcd.init();
